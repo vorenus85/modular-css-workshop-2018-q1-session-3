@@ -1,7 +1,10 @@
-@import "mixins";
+// default variables
+@import 'variables';
+
+// import default theme
+@import 'mixins';
 @import "base";
 @import "utils";
 @import "layout";
 @import "components";
 @import "modules";
-

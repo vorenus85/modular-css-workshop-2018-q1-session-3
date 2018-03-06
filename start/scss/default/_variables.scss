@@ -1,17 +1,17 @@
 /* default theme */
 
 /* globals */
-$global-background: #fff!default;
-$global-font-size: 14px!default;
-$global-border-radius: 0!default;
-$base-font-size: 14px!default;
+$global-background: #fff;
+$global-font-size: 14px;
+$global-border-radius: 0;
+$base-font-size: 14px;
 
 /* global colors */
-$white: #fff!default;
-$black: #000!default;
-$global-color: lightgray!default;
-$global-hover-color: gray!default;
-$global-font-color: #222!default;
+$white: #fff;
+$black: #000;
+$global-color: lightgray;
+$global-hover-color: gray;
+$global-font-color: #222;
 
 $theme-colors: (
         primary: $global-color,
@@ -19,59 +19,59 @@ $theme-colors: (
 ) !default;
 
 /* layout */
-$gutter: 15px!default;
-$gap: ($gutter * 2)!default;
-$sidebar-width: (300px - $gap)!default;
-$content-width: calc(100% - #{$sidebar-width})!default;
-$container-width: 1140px!default;
+$gutter: 15px;
+$gap: ($gutter * 2);
+$sidebar-width: (300px - $gap);
+$content-width: calc(100% - #{$sidebar-width});
+$container-width: 1140px;
 
 /* fonts */
 
-$theme-fonts: "https://fonts.googleapis.com/css?family=Playfair+Display:400,900,400i,900i|Roboto:400,400i,700,700i&subset=latin-ext"!default;
+$theme-fonts: "https://fonts.googleapis.com/css?family=Playfair+Display:400,900,400i,900i|Roboto:400,400i,700,700i&subset=latin-ext";
 
 @if($theme-fonts) {
     @import url($theme-fonts);
 }
 
-$body-font-family: "Roboto",sans-serif!default;
-$module-head-font-family: "Playfair Display"!default;
+$body-font-family: "Roboto",sans-serif ;
+$module-head-font-family: "Playfair Display";
 
 /* header */
-$header-background: lighten($global-color, 10%)!default; //#fafafa
+$header-background: lighten($global-color, 10%); //#fafafa
 
 /* category */
-$categories-background: darken($global-color, 10%)!default; //#fafafa
+$categories-background: darken($global-color, 10%); //#fafafa
 
 /* footer */
-$footer-background: darken($global-color, 10%)!default; //#bababa
-$footer-link-color: $global-font-color!default;
-$footer-color: $global-font-color!default;
+$footer-background: darken($global-color, 10%); //#bababa
+$footer-link-color: $global-font-color;
+$footer-color: $global-font-color;
 
 /* links */
-$link-color: darken($global-color, 10%)!default; //#bababa
-$link-hover-color: darken($global-hover-color, 10%)!default; //#676767
+$link-color: darken($global-color, 10%); //#bababa
+$link-hover-color: darken($global-hover-color, 10%); //#676767
 
 /* form */
-$input-border-color: #222!default;
-$input-color: $global-font-color!default;
-$input-background: $white!default;
-$input-border-width: 1px!default;
+$input-border-color: #222;
+$input-color: $global-font-color;
+$input-background: $white;
+$input-border-width: 1px;
 
 /* badge */
-$badge-background: lighten($global-color, 10%)!default; //#ededed;
+$badge-background: lighten($global-color, 10%);  //#ededed;
 
 /* btns */
-$btn-border-width: 2px!default;
+$btn-border-width: 2px;
 
-$btn-padding-y-sm: 3px!default;
-$btn-padding-x-sm: 5px!default;
-$btn-font-size-sm: 10px!default;
-$btn-border-radius-sm: $global-border-radius!default;
+$btn-padding-y-sm: 3px;
+$btn-padding-x-sm: 5px;
+$btn-font-size-sm: 10px;
+$btn-border-radius-sm: $global-border-radius;
 
-$btn-padding-y-lg: 10px!default;
-$btn-padding-x-lg: 15px!default;
-$btn-font-size-lg: 18px!default;
-$btn-border-radius-lg: $global-border-radius!default;
+$btn-padding-y-lg: 10px;
+$btn-padding-x-lg: 15px;
+$btn-font-size-lg: 18px;
+$btn-border-radius-lg: $global-border-radius;
 
 /* product-items */
 

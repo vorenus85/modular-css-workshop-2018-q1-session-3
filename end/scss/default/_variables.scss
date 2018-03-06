@@ -1,0 +1,81 @@
+/* default theme */
+
+/* globals */
+$global-background: #fff!default;
+$global-font-size: 14px!default;
+$global-border-radius: 0!default;
+$base-font-size: 14px!default;
+
+/* global colors */
+$white: #fff!default;
+$black: #000!default;
+$global-color: lightgray!default;
+$global-hover-color: gray!default;
+$global-font-color: #222!default;
+
+$theme-colors: (
+        primary: $global-color,
+        secondary: $global-hover-color
+) !default;
+
+/* layout */
+$gutter: 15px!default;
+$gap: ($gutter * 2)!default;
+$sidebar-width: (300px - $gap)!default;
+$content-width: calc(100% - #{$sidebar-width})!default;
+$container-width: 1140px!default;
+
+/* fonts */
+
+$theme-fonts: "https://fonts.googleapis.com/css?family=Playfair+Display:400,900,400i,900i|Roboto:400,400i,700,700i&subset=latin-ext"!default;
+
+@if($theme-fonts) {
+    @import url($theme-fonts);
+}
+
+$body-font-family: "Roboto",sans-serif!default;
+$module-head-font-family: "Playfair Display"!default;
+
+/* header */
+$header-background: lighten($global-color, 10%)!default; //#fafafa
+
+/* category */
+$categories-background: darken($global-color, 10%)!default; //#fafafa
+
+/* footer */
+$footer-background: darken($global-color, 10%)!default; //#bababa
+$footer-link-color: $global-font-color!default;
+$footer-color: $global-font-color!default;
+
+/* links */
+$link-color: darken($global-color, 10%)!default; //#bababa
+$link-hover-color: darken($global-hover-color, 10%)!default; //#676767
+
+/* form */
+$input-border-color: #222!default;
+$input-color: $global-font-color!default;
+$input-background: $white!default;
+$input-border-width: 1px!default;
+
+/* badge */
+$badge-background: lighten($global-color, 10%)!default; //#ededed;
+
+/* btns */
+$btn-border-width: 2px!default;
+
+$btn-padding-y-sm: 3px!default;
+$btn-padding-x-sm: 5px!default;
+$btn-font-size-sm: 10px!default;
+$btn-border-radius-sm: $global-border-radius!default;
+
+$btn-padding-y-lg: 10px!default;
+$btn-padding-x-lg: 15px!default;
+$btn-font-size-lg: 18px!default;
+$btn-border-radius-lg: $global-border-radius!default;
+
+/* product-items */
+
+/* TODO media-queries,
+** TODO a container-width media-queryn-ként változó lesz
+** TODO a media-queryk szintén változóba legyenek
+*/
