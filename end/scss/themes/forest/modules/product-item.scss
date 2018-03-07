@@ -1,0 +1,13 @@
+.content-position {
+    .product-item {
+        @include dinamic-width(5);
+    }
+
+    .product-item-row-actions {
+        text-align: center;
+
+        .product-item-row {
+            width: 100%;
+        }
+    }
+}
